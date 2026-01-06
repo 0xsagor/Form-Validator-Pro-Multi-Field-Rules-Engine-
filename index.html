@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validator Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>Form Validator</h1>
+
+  <form onsubmit="submitForm(event)">
+    <input type="text" id="name" placeholder="Full Name">
+    <small id="nameErr"></small>
+
+    <input type="email" id="email" placeholder="Email">
+    <small id="emailErr"></small>
+
+    <input type="password" id="password" placeholder="Password">
+    <small id="passErr"></small>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
